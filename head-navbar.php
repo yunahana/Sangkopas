@@ -120,7 +120,7 @@
 				<div class="dropdown">
 					<a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown">
 						<span class="user-icon">
-							<img src="vendors/images/photo9.jpg" alt="logo">
+							<img src="vendors/images/Logo2.jpg" alt="logo">
 						</span>
 						<span class="user-name"><?php echo ucwords($_SESSION['nama']); ?></span>
 					</a>

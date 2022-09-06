@@ -39,7 +39,7 @@
 	<div class="mobile-menu-overlay"></div>
 
 	<?php
-		// gambar fc izajah
+		
 		if(isset($_FILES['fc_ijazah'])){
 			$errors= array();
 			$file_name = str_replace(" ", "-", $_FILES['fc_ijazah']['name']);

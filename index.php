@@ -36,10 +36,10 @@
 				<div class="card-box pd-20 height-100-p mb-30">
 					<div class="row align-items-center">
 						<div class="col-md-4">
-							<img src="vendors/images/banner-img.png" alt="">
+							<img src="vendors/images/cafe.jpg" alt="">
 						</div>
 						<div class="col-md-8">
-							<h4 class="font-20 weight-500 mb-10 text-capitalize">
+							<h4 class="font-50 weight-500 mb-10 text-capitalize">
 								Selamat Datang
 								<?php if ($_SESSION['role'] == 'admin'): ?>
 									Admin
@@ -48,7 +48,7 @@
 								<?php else: ?>
 									Pelanggan
 								<?php endif; ?>
-								<div class="weight-600 font-30 text-blue"><?php echo $_SESSION['nama']; ?></div>
+								<div class="weight-600 font-60 text-blue"><?php echo $_SESSION['nama']; ?></div>
 							</h4>
 						</div>
 					</div>
